@@ -8,74 +8,46 @@
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:'Inter',sans-serif;background:#FFFBF7;color:#2B2B2B}
-h1,h2,h3{font-family:'Playfair Display',serif}
+h1,h2{font-family:'Playfair Display',serif}
 .container{max-width:1200px;margin:0 auto;padding:0 20px}
 header{position:sticky;top:0;background:rgba(255,251,247,0.9);backdrop-filter:blur(12px);border-bottom:1px solid #F0E6DA;z-index:50;padding:16px 0}
 .header-inner{display:flex;justify-content:space-between;align-items:center}
-.logo{font-weight:700;font-size:22px;letter-spacing:1px}
+.logo{font-weight:700;font-size:22px}
 .btn-wa{background:#2B2B2B;color:#FFFBF7;padding:10px 20px;border-radius:30px;text-decoration:none;font-size:14px;font-weight:600}
 .hero{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center;padding:80px 0}
 .hero h1{font-size:54px;line-height:1.05;margin-bottom:16px}
 .hero h1 span{color:#C9A87A}
-.hero p{color:#6B5B4F;line-height:1.6;margin-bottom:24px}
-.hero-img{border-radius:32px;overflow:hidden;aspect-ratio:4/5;box-shadow:0 30px 60px rgba(0,0,0,0.12)}
+.hero-img{border-radius:32px;overflow:hidden;aspect-ratio:4/5}
 .hero-img img{width:100%;height:100%;object-fit:cover}
 .section{padding:80px 0}
-.section-title{font-size:40px;text-align:center;margin-bottom:12px}
-.section-sub{text-align:center;color:#8A7A6E;margin-bottom:48px}
+.section-title{font-size:40px;text-align:center}
+.section-sub{text-align:center;color:#8A7A6E;margin:12px 0 48px}
 .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
 .card{border-radius:20px;overflow:hidden;background:white;box-shadow:0 4px 20px rgba(0,0,0,0.06)}
 .card img{width:100%;display:block}
 .card-info{padding:16px}
-.card-info b{font-size:15px}
+.card-info b{display:block;font-size:15px}
 .card-info p{font-size:13px;color:#8A7A6E;margin-top:4px}
-.cta{background:#2B2B2B;color:#FFFBF7;border-radius:32px;padding:60px;text-align:center}
-.cta h2{font-size:42px;margin-bottom:12px}
-.cta p{color:#C9B8A6;margin-bottom:28px}
-.btn-light{background:#FFFBF7;color:#2B2B2B;padding:14px 32px;border-radius:30px;text-decoration:none;font-weight:600;display:inline-block}
-footer{padding:40px 0;text-align:center;color:#8A7A6E;font-size:13px;border-top:1px solid #F0E6DA;margin-top:60px}
-@media(max-width:900px){.hero{grid-template-columns:1fr}.grid{grid-template-columns:1fr}.hero h1{font-size:40px}}
+.cta{background:#2B2B2B;color:#FFFBF7;border-radius:32px;padding:60px;text-align:center;margin-top:40px}
+@media(max-width:900px){.hero{grid-template-columns:1fr}.grid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
-<header>
-<div class="container header-inner">
-<div class="logo">LA INTERIOR DESIGN</div>
-<a class="btn-wa" href="https://wa.me/6281234567890?text=Halo%20LA%20Interior,%20mau%20konsultasi">Konsultasi WA</a>
-</div>
-</header>
+<header><div class="container header-inner"><div class="logo">LA INTERIOR DESIGN</div><a class="btn-wa" href="https://wa.me/6281234567890">Konsultasi WA</a></div></header>
 <div class="container">
 <div class="hero">
-<div>
-<h1>Ruang Indah,<br>Nyaman &<br><span>Berkelas</span></h1>
-<p>Desainer interior spesialis kitchen set, backdrop TV, wardrobe & kamar custom. Minimalis, modern, fungsional untuk rumah impianmu.</p>
-<a class="btn-wa" href="https://wa.me/6281234567890?text=Halo%20LA%20Interior,%20mau%20konsultasi">Konsultasi Gratis →</a>
-</div>
-<div class="hero-img"><img src="IMG-20260917-WA2267.jpg" alt="LA Interior"></div>
+<div><h1>Ruang Indah,<br>Nyaman &<br><span>Berkelas</span></h1><p>Spesialis kitchen set, wardrobe, backdrop TV & kamar custom. Minimalis, modern, fungsional.</p></div>
+<div class="hero-img"><img src="IMG-20260917-WA2267.jpg"></div>
 </div>
 <div class="section">
 <h2 class="section-title">Portfolio Terbaik Kami</h2>
 <p class="section-sub">Koleksi karya terbaik kami</p>
 <div class="grid">
-<div class="card"><img src="IMG-20260917-WA2267.jpg"><div class="card-info"><b>Wardrobe + Meja Rias Grey Modern</b><p>Kamar Utama</p></div></div>
-<div class="card"><img src="IMG-20260917-WA2542.jpg"><div class="card-info"><b>Wardrobe Dark & Vanity LED Bulat</b><p>Desain Elegan & Mewah</p></div></div>
-<div class="card"><img src="IMG-20260917-WA2911.jpg"><div class="card-info"><b>Kitchen Set + Mini Bar Marmer</b><p>Dapur Modern</p></div></div>
-<div class="card"><img src="IMG-20260917-WA4617.jpg"><div class="card-info"><b>Kitchen Set Minimalis Dark Grey</b><p>Fungsional & Rapi</p></div></div>
-<div class="card"><img src="IMG-20260917-WA4823.jpg"><div class="card-info"><b>Backdrop TV + Rak Display</b><p>Ruang Keluarga Hangat</p></div></div>
-<div class="card"><img src="IMG-20260917-WA6835.jpg"><div class="card-info"><b>Kamar Tidur Japandi Beige</b><p>Wardrobe Full Plafon</p></div></div>
-<div class="card"><img src="IMG-20260917-WA7579.jpg"><div class="card-info"><b>Kitchen Island Kayu + Marmer</b><p>Industrial Modern</p></div></div>
-<div class="card"><img src="IMG-20260917-WA9526.jpg"><div class="card-info"><b>Backdrop TV Mewah Coklat</b><p>Full Panel & LED</p></div></div>
-<div class="card"><img src="IMG-20260917-WA9885.jpg"><div class="card-info"><b>Kitchen & Living Concept</b><p>Karya Terbaru</p></div></div>
-</div>
-</div>
-<div class="section">
-<div class="cta">
-<h2>Wujudkan Rumah Impianmu</h2>
-<p>Konsultasi gratis, desain 3D, pengerjaan tepat waktu & bergaransi.</p>
-<a class="btn-light" href="https://wa.me/6281234567890?text=Halo%20LA%20Interior%20Design">Chat WhatsApp Sekarang</a>
-</div>
-</div>
-<footer>© 2026 LA Interior Design | Kitchen Set • Kamar • Backdrop TV • Interior Custom</footer>
-</div>
-</body>
-</html>
+<div class="card"><img src="IMG-20260917-WA2267.jpg"><div class="card-info"><b>Wardrobe + Meja Rias</b><p>Kamar Utama</p></div></div>
+<div class="card"><img src="IMG-20260917-WA2542.jpg"><div class="card-info"><b>Wardrobe + Vanity LED</b><p>Kamar Elegan</p></div></div>
+<div class="card"><img src="IMG-20260917-WA2911.jpg"><div class="card-info"><b>Kitchen Set + Mini Bar</b><p>Dapur Modern</p></div></div>
+<div class="card"><img src="IMG-20260917-WA4617.jpg"><div class="card-info"><b>Kitchen Set Minimalis</b><p>Dark Grey</p></div></div>
+<div class="card"><img src="IMG-20260917-WA4823.jpg"><div class="card-info"><b>Backdrop TV Minimalis Modern</b><p>Ruang Keluarga</p></div></div>
+<div class="card"><img src="IMG-20260917-WA6835.jpg"><div class="card-info"><b>Kamar Tidur Japandi</b><p>Beige Aesthetic</p></div></div>
+<div class="card"><img src="IMG-20260917-WA7579.jpg"><div class="card-info"><b>Kamar Set Grey Modern</b><p>Wardrobe Full</p></div></div>
+<div class
